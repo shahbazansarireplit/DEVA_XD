@@ -4,8 +4,8 @@ def encode_credentials(username, password):
     return encoded_username, encoded_password
 
 def login():
-    correct_username = "SATISH-BHAI"
-    correct_password = "T.S.BRAND"
+    correct_username = "DEVA THAKUR"
+    correct_password = "DEVA XD"
     username_input = input("Enter username:")
     password_input = input("Enter password:")
     encoded_username, encoded_password = encode_credentials(correct_username, correct_password)
